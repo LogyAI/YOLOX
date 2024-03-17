@@ -3,4 +3,5 @@
 
 from .base_exp import BaseExp
 from .build import get_exp
-from .yolox_base import Exp, check_exp_value
+from .yolox_base import Exp
+from .yolox_logy_base import LogyExp, check_exp_value
