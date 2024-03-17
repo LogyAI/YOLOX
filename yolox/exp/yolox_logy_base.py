@@ -358,6 +358,6 @@ class LogyExp(BaseExp):
         return evaluator.evaluate(model, is_distributed, half, return_outputs=return_outputs)
 
 
-def check_exp_value(exp: Exp):
+def check_exp_value(exp):
     h, w = exp.input_size
     assert h % 32 == 0 and w % 32 == 0, "input size must be multiples of 32"
