@@ -10,10 +10,17 @@ Original repo and `yolox_s.pth` location: [YOLOX](https://github.com/Megvii-Base
 ```
   - dataset_directory/
     - images/
-    - train_split.json
-    - val_split.json
+     - image1.jpg
+     - abcfdtD.jpg
+     - ...
+    - annotations/
+      - train_coco.json
+      - val_coco.json
 ```
 
 - Modify `exps/yolox_s_logy.py` 
 
 - OR you can also run `python pipeline/setup.py` after modifying `pipeline/config.json`
+
+
+- Run `./train_pipeline.sh` to train the file
