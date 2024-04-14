@@ -1,7 +1,7 @@
 {
     "depth": 0.33,
     "width": 0.5,
-    "data_dir": "datasets/new-dataset",
+    "data_dir": "/home/ubuntu/cocodata",
     "train_images_dir": "images",
     "val_images_dir": "images",
     "train_ann": "train_split.json",
